@@ -7,18 +7,32 @@
   </head>
   <body>
     <header>
+      <a href="https://www.instagram.com/atleticafipp/">
+        <img width="32" height="32" src="https://intepp.com.br/img/logo-parceiros/atletica-fipp.png" />
+      </a>
+      <a href="#">Eventos</a>
       <a href="#">Instagram</a>
       <a href="#">E-Sports</a>
-      <a href="#">Cervejada</a>
     </header>
     <main>
       <div class="content">
         <h1>Atletica FIPP</h1>
-        <p>Inscreva-se no campeonato de LoL</p>
-        <p>24 vagas restantes</p>
-        <button id="btInscricao">Inscreva-se</button>
+        <p>Inscreva-se no campeonato de <br>Call of Duty:Black Ops 6 </p>
+        <p>vagas restantes: <span id="vagasRestantes">%</span></p>
+        <button id="btInscricao" name="btInscricao">Inscreva-se</button>
       </div>
     </main>
+    <footer>Densenvolvido por Leandro Rodrigues</footer>
+    <div id="popup-bg" name="popup-bg" class="popup-bg">
+      <form class="popup">
+        <button id="fechaForm" name="fechaForm" class="popup-bg-btnFechar">X</button>
+        <h2>Finalizar Inscrição</h2>
+        <input id="input-text" name="nome" type="text" placeholder="Nome completo"/>
+        <input id="input-email" name="email" type="email" placeholder="Email"/>
+        <button id="envInscricao" name="envInscricao" type="submit">Enviar</button>
+      </form>
+    </div>
   </body>
   <script src="./main.js"></script>
-<html/>
+  <html />
+</html>
